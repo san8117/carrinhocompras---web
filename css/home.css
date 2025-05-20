@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap:2rem ;
+    font-family: sans-serif;
+    
+}
+
+.navegacao h1 {
+    padding: 0.5rem;
+}
+
+.navegacao nav {
+    display: flex;
+    padding:0.5rem ;
+    justify-content: space-between;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+
+}
+ 
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding-left: 0.5rem;
+    
+}
+
+.texto h1 {
+    font-size: 2.5rem;
+}
+
+.texto h2 {
+    font-size: 1.3rem;
+}
+
+
+button {
+display: flex;
+margin-top: 6rem;
+
+}
+
+
+img {
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    
+    margin-left: 25rem;
+}
